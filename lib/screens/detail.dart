@@ -44,23 +44,19 @@ class DetailScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 ElevatedButton(
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.blue,
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(
-                          10.0), // Change the border radius here
-                    ),
-                  ),
+                  //...
                   onPressed: () async {
-                    // Open YouTube
+                    final scaffoldMessenger = ScaffoldMessenger.of(
+                        context); // Store the ScaffoldMessenger here
                     try {
                       await launchUrl(Uri.parse(course.youtube));
                     } catch (e) {
                       // Handle the error
-                      ScaffoldMessenger.of(context).showSnackBar(
+                      scaffoldMessenger.showSnackBar(
+                        // Use the stored ScaffoldMessenger
                         SnackBar(
-                            content:
-                                Text('Could not launch ${course.website}')),
+                          content: Text('Could not launch ${course.youtube}'),
+                        ),
                       );
                     }
                   },
@@ -71,23 +67,19 @@ class DetailScreen extends StatelessWidget {
                 ),
                 const SizedBox(width: 16),
                 ElevatedButton(
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.blue,
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(
-                          10.0), // Change the border radius here
-                    ),
-                  ),
+                  //...
                   onPressed: () async {
-                    // Open Website
+                    final scaffoldMessenger = ScaffoldMessenger.of(
+                        context); // Store the ScaffoldMessenger here
                     try {
                       await launchUrl(Uri.parse(course.website));
                     } catch (e) {
                       // Handle the error
-                      ScaffoldMessenger.of(context).showSnackBar(
+                      scaffoldMessenger.showSnackBar(
+                        // Use the stored ScaffoldMessenger
                         SnackBar(
-                            content:
-                                Text('Could not launch ${course.website}')),
+                          content: Text('Could not launch ${course.website}'),
+                        ),
                       );
                     }
                   },
