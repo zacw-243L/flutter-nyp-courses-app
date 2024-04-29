@@ -22,6 +22,7 @@ class HomeScreen extends StatelessWidget {
             leading: Image.network(course.imageUrl),
             title: Text(course.title),
             subtitle: Text(course.code),
+            tileColor: course.tileColor,
           );
         },
       ),

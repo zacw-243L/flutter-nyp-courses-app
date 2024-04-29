@@ -1,6 +1,7 @@
 import 'dart:collection';
 
 import '../models/course.dart';
+import 'package:flutter/material.dart';
 
 class CoursesRepository {
   UnmodifiableListView<Course> get allCourses {
@@ -22,6 +23,7 @@ class CoursesRepository {
       youtube: 'https://www.youtube.com/watch?v=yUq5s_mB_b0',
       website:
           'https://www.nyp.edu.sg/schools/seg/full-time-courses/common-engineering-programme.html',
+      tileColor: Colors.orange, // Set the tile color to blue
     ),
     Course(
       code: 'C31',
@@ -34,6 +36,7 @@ class CoursesRepository {
           'https://www.nyp.edu.sg/content/dam/nyp/schools-course/seg/full-time-courses/dip-in-ai-n-data-engineering/C31_ADE_Course%20Marketing_2022.mp4',
       website:
           'https://www.nyp.edu.sg/schools/seg/full-time-courses/ai-and-data-engineering.html',
+      tileColor: Colors.red, // Set the tile color to blue
     ),
     Course(
       code: 'C62',
@@ -45,6 +48,7 @@ class CoursesRepository {
       youtube: 'https://www.youtube.com/watch?v=-zJlpT9pT_I',
       website:
           'https://www.nyp.edu.sg/schools/seg/full-time-courses/advanced-and-digital-manufacturing.html',
+      tileColor: Colors.green,
     ),
     Course(
       code: 'C51',
@@ -56,6 +60,7 @@ class CoursesRepository {
       youtube: 'https://www.youtube.com/watch?v=ildHr3piPxE',
       website:
           'https://www.nyp.edu.sg/schools/seg/full-time-courses/aeronautical-and-aerospace-technology.html',
+      tileColor: Colors.yellow,
     ),
     Course(
       code: 'C52',
@@ -67,6 +72,7 @@ class CoursesRepository {
       youtube: 'https://www.youtube.com/watch?v=dlzxDmhkaww',
       website:
           'https://www.nyp.edu.sg/schools/seg/full-time-courses/aerospace-systems-and-management.html',
+      tileColor: Colors.pink,
     ),
     Course(
       code: 'C71',
@@ -78,6 +84,7 @@ class CoursesRepository {
       youtube: 'https://www.youtube.com/watch?v=Je2Hz08dDpc',
       website:
           'https://www.nyp.edu.sg/schools/seg/full-time-courses/biomedical-engineering.html',
+      tileColor: Colors.lightGreenAccent,
     ),
     Course(
       code: 'C89',
@@ -89,6 +96,7 @@ class CoursesRepository {
       youtube: 'https://www.youtube.com/watch?v=FPH15zE7cBg',
       website:
           'https://www.nyp.edu.sg/schools/seg/full-time-courses/electronic-computer-engineering.html',
+      tileColor: Colors.blue,
     ),
     Course(
       code: 'C41',
@@ -100,6 +108,7 @@ class CoursesRepository {
       youtube: 'https://www.youtube.com/watch?v=ZJN3ss088wI',
       website:
           'https://www.nyp.edu.sg/schools/seg/full-time-courses/engineering-with-business.html',
+      tileColor: Colors.greenAccent,
     ),
     Course(
       code: 'C75',
@@ -111,6 +120,7 @@ class CoursesRepository {
       youtube: 'https://www.youtube.com/watch?v=GBh_ifyoZOw',
       website:
           'https://www.nyp.edu.sg/schools/seg/full-time-courses/infocomm-and-media-engineering.html',
+      tileColor: Colors.lightBlue,
     ),
     Course(
       code: 'C50',
@@ -122,6 +132,7 @@ class CoursesRepository {
       youtube: 'https://www.youtube.com/watch?v=cbYLA_lGIxI',
       website:
           'https://www.nyp.edu.sg/schools/seg/full-time-courses/nanotechnology-and-materials-science.html',
+      tileColor: Colors.lime,
     ),
     Course(
       code: 'C87',
@@ -134,6 +145,7 @@ class CoursesRepository {
           'https://www.nyp.edu.sg/content/dam/nyp/schools-course/seg/full-time-courses/diploma-in-robotics-mechatronics/drm-video.mp4',
       website:
           'https://www.nyp.edu.sg/schools/seg/full-time-courses/robotics-and-mechatronics.html',
+      tileColor: Colors.redAccent,
     ),
   ];
 }

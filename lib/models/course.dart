@@ -1,3 +1,5 @@
+import 'package:flutter/material.dart';
+
 class Course {
   final String code;
   final String title;
@@ -5,6 +7,7 @@ class Course {
   final String description;
   final String youtube;
   final String website;
+  final Color tileColor;
 
   Course({
     required this.code,
@@ -13,5 +16,6 @@ class Course {
     required this.description,
     required this.youtube,
     required this.website,
+    this.tileColor = Colors.white, // Set a default value
   });
 }
