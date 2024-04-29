@@ -16,9 +16,12 @@ class DetailScreen extends StatelessWidget {
       body: SingleChildScrollView(
         child: Column(
           children: [
-            Text(
-              course.code,
-              style: const TextStyle(fontSize: 28),
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: Text(
+                course.code,
+                style: const TextStyle(fontSize: 26),
+              ),
             ),
             Text(
               course.title,
