@@ -1,4 +1,4 @@
-# NYP_Courses
+# NYP Courses
 
 part of assignment
 
