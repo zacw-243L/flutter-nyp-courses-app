@@ -9,6 +9,7 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('NYP Courses'),
+        backgroundColor: Colors.blue,
       ),
       body: ListView.builder(
         itemCount: CoursesRepository().allCoursesCount,
