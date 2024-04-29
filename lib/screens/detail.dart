@@ -10,7 +10,11 @@ class DetailScreen extends StatelessWidget {
     final Course course = ModalRoute.of(context)?.settings.arguments as Course;
     return Scaffold(
       appBar: AppBar(
-        title: Text(course.title),
+        title: Text(
+          course.title,
+          style: const TextStyle(fontSize: 18),
+          textAlign: TextAlign.center,
+        ),
         backgroundColor: Colors.blue,
       ),
       body: SingleChildScrollView(
