@@ -1,7 +1,6 @@
-# NYP courses
+# nyp_courses
 
-part of assignment <br>
-a list of NYP SEG courses in an app that demonstrates how to open new windows
+part of assignment
 
 ## Getting Started
 
