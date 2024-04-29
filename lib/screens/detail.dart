@@ -28,18 +28,19 @@ class DetailScreen extends StatelessWidget {
               style: const TextStyle(fontSize: 22),
               textAlign: TextAlign.center, // Add this line
             ),
-            const SizedBox(height: 16),
+            const SizedBox(height: 8),
             Padding(
               padding:
-                  const EdgeInsets.all(13.0), // Add padding around the image
+                  const EdgeInsets.all(10.0), // Add padding around the image
               child: Image.network(course.imageUrl),
             ),
-            const SizedBox(height: 16),
+            const SizedBox(height: 8),
             Padding(
               padding: const EdgeInsets.all(13.0),
               child: Text(
                 course.description,
-                textAlign: TextAlign.justify, // Add this line
+                textAlign: TextAlign.justify,
+                style: const TextStyle(fontSize: 14), // Add this line
               ),
             ),
             const SizedBox(height: 16),
