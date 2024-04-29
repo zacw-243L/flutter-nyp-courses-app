@@ -44,7 +44,13 @@ class DetailScreen extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 ElevatedButton(
-                  //...
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.blue,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(
+                          10.0), // Change the border radius here
+                    ),
+                  ),
                   onPressed: () async {
                     final scaffoldMessenger = ScaffoldMessenger.of(
                         context); // Store the ScaffoldMessenger here
@@ -67,7 +73,13 @@ class DetailScreen extends StatelessWidget {
                 ),
                 const SizedBox(width: 16),
                 ElevatedButton(
-                  //...
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.blue,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(
+                          10.0), // Change the border radius here
+                    ),
+                  ),
                   onPressed: () async {
                     final scaffoldMessenger = ScaffoldMessenger.of(
                         context); // Store the ScaffoldMessenger here
