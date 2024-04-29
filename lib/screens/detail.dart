@@ -56,7 +56,11 @@ class DetailScreen extends StatelessWidget {
                       await launchUrl(Uri.parse(course.youtube));
                     } catch (e) {
                       // Handle the error
-                      print('Could not launch ${course.youtube}');
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(
+                            content:
+                                Text('Could not launch ${course.website}')),
+                      );
                     }
                   },
                   child: const Text(
@@ -79,7 +83,11 @@ class DetailScreen extends StatelessWidget {
                       await launchUrl(Uri.parse(course.website));
                     } catch (e) {
                       // Handle the error
-                      print('Could not launch ${course.website}');
+                      ScaffoldMessenger.of(context).showSnackBar(
+                        SnackBar(
+                            content:
+                                Text('Could not launch ${course.website}')),
+                      );
                     }
                   },
                   child: const Text(
