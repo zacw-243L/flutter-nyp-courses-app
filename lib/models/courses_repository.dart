@@ -1,15 +1,31 @@
 import 'dart:collection';
-
+import 'package:flutter/foundation.dart';
 import '../models/course.dart';
 import 'package:flutter/material.dart';
 
-class CoursesRepository {
+class CoursesRepository extends ChangeNotifier {
   UnmodifiableListView<Course> get allCourses {
     return UnmodifiableListView(_allCourses);
   }
 
   int get allCoursesCount {
     return _allCourses.length;
+  }
+
+  List<Course> _favCourses = [];
+
+  UnmodifiableListView<Course> get favCourses {
+    return UnmodifiableListView(_favCourses);
+  }
+
+  int get favCoursesCount {
+    return _favCourses.length;
+  }
+
+  void updateCourse(Course course) {
+    course.toggleFav();
+    course.isFav ? _favCourses.add(course) : _favCourses.remove(course);
+    notifyListeners();
   }
 
   final List<Course> _allCourses = [
