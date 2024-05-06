@@ -9,15 +9,15 @@ class FavScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('NYP Courses'),
+        title: const Text('Favourite Courses'),
         backgroundColor: Colors.blue,
       ),
       body: Consumer<CoursesRepository>(
         builder: (context, courses, child) {
           return ListView.builder(
-            itemCount: courses.allCoursesCount,
+            itemCount: favCoursesCount.allCoursesCount,
             itemBuilder: (context, index) {
-              final course = courses.allCourses[index];
+              final course = courses.favCourses[index];
               return ListTile(
                 onTap: () {
                   Navigator.pushNamed(context, '/detail', arguments: course);
