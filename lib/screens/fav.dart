@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import '../models/courses_repository.dart';
 import 'package:provider/provider.dart';
 
-class HomeScreen extends StatelessWidget {
-  const HomeScreen({super.key});
+class FavScreen extends StatelessWidget {
+  const FavScreen ({super.key});
 
   @override
   Widget build(BuildContext context) {
