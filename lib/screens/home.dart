@@ -25,6 +25,14 @@ class HomeScreen extends StatelessWidget {
                 leading: Image.network(course.imageUrl),
                 title: Text(course.title),
                 subtitle: Text(course.code),
+                trailing: IconButton(
+                  icon: (course.isFav
+                      ? const Icon(Icons.favorite, color: Colors.red)
+                      : const Icon(Icons.favorite_border)),
+                  onPressed: () {
+                    courses.updateCourse(course);
+                  },
+                ),
                 tileColor: course.tileColor,
               );
             },
