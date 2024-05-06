@@ -93,12 +93,12 @@ class CoursesRepository extends ChangeNotifier {
       code: 'C71',
       title: 'Biomedical Engineering',
       imageUrl:
-          'https://www.nyp.edu.sg/content/dam/nyp/schools-course/seg/full-time-courses/diploma-in-biomedical-engineering/hero-banner/seg-biomedical-engineering.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg',
+          'https://www.nyp.edu.sg/content/dam/nypcorp/sg/en/student/study-at-nyp/school/school-of-engineering/seg-course-thumbnail-bme.jpg',
       description:
           'Does the life-saving work of doctors and healthcare professionals inspire you? Do you wish to help them do their work better? Then our Diploma in Biomedical Engineering gives you the skills to design, develop and produce medical devices and instruments for the ever-evolving medical technology and healthcare industries. Gain good grounding in the basics, then choose to specialise in biomedical device technology, quality system and regulatory compliance or biomedical design and manufacturing technology.',
       youtube: 'https://www.youtube.com/watch?v=Je2Hz08dDpc',
       website:
-          'https://www.nyp.edu.sg/schools/seg/full-time-courses/biomedical-engineering.html',
+          'https://www.nyp.edu.sg/student/study/schools/engineering/diploma-biomedical-engineering',
       tileColor: Colors.lightGreenAccent,
     ),
     Course(
@@ -110,7 +110,7 @@ class CoursesRepository extends ChangeNotifier {
           'Do you want to be in the driver’s seat as the array of advanced technologies revolutionise our world, connecting people and empowering devices? From smartphones to intelligent autonomous vehicles, electronics is increasingly everywhere, connecting us all, shaping our future and enriching our lives. NYP’s Diploma in ECE gives you wide knowledge in the theory and practice of electronics and computing. It allows you to thrive in high-growth industries and sectors such as electronics, Infocomm, semiconductor, telecommunications and Internet of Things.',
       youtube: 'https://www.youtube.com/watch?v=FPH15zE7cBg',
       website:
-          'https://www.nyp.edu.sg/schools/seg/full-time-courses/electronic-computer-engineering.html',
+          'https://www.nyp.edu.sg/student/study/schools/engineering/diploma-electronic-computer-engineering',
       tileColor: Colors.blue,
     ),
     Course(
