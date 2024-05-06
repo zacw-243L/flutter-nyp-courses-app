@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../screens/home.dart';
+import '../screens/fav.dart';
 import '../screens/detail.dart';
 import 'package:provider/provider.dart';
 import '../models/courses_repository.dart';
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
         routes: {
           '/': (context) => const HomeScreen(),
           '/detail': (context) => const DetailScreen(),
+          '/fav': (context) => çonst FavScreen(),
         },
       ),
     );
