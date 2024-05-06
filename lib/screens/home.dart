@@ -15,7 +15,9 @@ class HomeScreen extends StatelessWidget {
             icon: const Icon(Icons.favorite, color: Colors.red),
             onPressed: () {
               Navigator.pushNamed(context, '/fav');
-    },
+            },
+          )
+        ],
         backgroundColor: Colors.blue,
       ),
       body: Consumer<CoursesRepository>(
