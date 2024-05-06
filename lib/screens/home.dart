@@ -10,6 +10,12 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: const Text('NYP Courses'),
+        actions: [
+          IconButton(
+            icon: const Icon(Icons.favorite, color: Colors.red),
+            onPressed: () {
+              Navigator.pushNamed(context, '/fav');
+    },
         backgroundColor: Colors.blue,
       ),
       body: Consumer<CoursesRepository>(
