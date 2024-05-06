@@ -44,7 +44,7 @@ class CoursesRepository extends ChangeNotifier {
       code: 'C31',
       title: 'AI & Data Engineering',
       imageUrl:
-          'https://www.nyp.edu.sg/content/dam/nyp/schools-course/seg/full-time-courses/dip-in-ai-n-data-engineering/dade_herobanner.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg',
+          'https://www.nyp.edu.sg/content/dam/nypcorp/sg/en/student/study-at-nyp/school/school-of-engineering/seg-course-thumbnail-ade.jpg',
       description:
           'Everything is connected to the internet – it could be the heart rate collected from our smart watch, or the efficiency of the engine that powers the plane we fly in. The devices we use daily generate data, which provides experts with insights to help save lives. For example, doctors can monitor a patient’s health to predict a heart attack, and engineers can predict performance issues in the engines. Have you ever wondered how all this data is processed and translated into insights? Artificial Intelligence (AI) transforms how traditional engineering industries operate. Data is collected from these different sources, like Internet of Things (IoT) sensors, smart devices and on board machine systems. Then, AI solutions are built to process the data, remove repetitive manual work, automate processes, predict preventive actions and more. ',
       youtube:
