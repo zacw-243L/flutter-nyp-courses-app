@@ -50,7 +50,7 @@ class CoursesRepository extends ChangeNotifier {
       youtube: 'https://www.youtube.com/watch?v=yxXRsNPN-f0',
       website:
           'https://www.nyp.edu.sg/student/study/schools/engineering/diploma-AI-data-engineering',
-      tileColor: Colors.red, // Set the tile color to blue
+      tileColor: Colors.deepOrange, // Set the tile color to blue
     ),
     Course(
       code: 'C62',
@@ -155,8 +155,7 @@ class CoursesRepository extends ChangeNotifier {
           'https://www.nyp.edu.sg/content/dam/nypcorp/sg/en/student/study-at-nyp/school/school-of-engineering/course-thumbnail-rm.jpg',
       description:
           'Do you love robots? Enjoy putting things together by hand? If your answer is yes, then you should take up our Diploma in Robotics & Mechatronics course, which combines mechanical, electronics and computing engineering. Learn how to build your own robots and gadgets as you pick up the basics of engineering and programming. Plus, you can choose to specialise in areas such as automation and robotics, wafer fabrication, aerospace or biomedical engineering.',
-      youtube:
-          'https://www.youtube.com/watch?v=7RVzVH1tSu8',
+      youtube: 'https://www.youtube.com/watch?v=7RVzVH1tSu8',
       website:
           'https://www.nyp.edu.sg/student/study/schools/engineering/diploma-robotics-mechatronics',
       tileColor: Colors.redAccent,
