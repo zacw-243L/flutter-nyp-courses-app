@@ -156,7 +156,7 @@ class CoursesRepository extends ChangeNotifier {
       description:
           'Do you love robots? Enjoy putting things together by hand? If your answer is yes, then you should take up our Diploma in Robotics & Mechatronics course, which combines mechanical, electronics and computing engineering. Learn how to build your own robots and gadgets as you pick up the basics of engineering and programming. Plus, you can choose to specialise in areas such as automation and robotics, wafer fabrication, aerospace or biomedical engineering.',
       youtube:
-          'https://www.nyp.edu.sg/content/dam/nyp/schools-course/seg/full-time-courses/diploma-in-robotics-mechatronics/drm-video.mp4',
+          'https://www.youtube.com/watch?v=7RVzVH1tSu8',
       website:
           'https://www.nyp.edu.sg/student/study/schools/engineering/diploma-robotics-mechatronics',
       tileColor: Colors.redAccent,
