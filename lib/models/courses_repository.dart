@@ -37,7 +37,7 @@ class CoursesRepository extends ChangeNotifier {
           'Want to do Engineering but do not know which diploma to choose? Enrol into Common Engineering Programme! Enjoy the vibrant poly learning environment and familiarise yourself with various engineering disciplines. Take one year to immerse yourself in the world of engineering, then choose from 9 engineering diplomas designed to cater to your aspiration. You would be able to pursue your dream career and explore vast opportunities in engineering. The Programme runs for one year and will introduce you to various engineering disciplines. It gives you the opportunity to get familiarised with our polytechnic environment and be exposed to the various aspects of engineering so that you could make a well informed choice of the diploma course.',
       youtube: 'https://www.youtube.com/watch?v=yUq5s_mB_b0',
       website:
-          'https://www.nyp.edu.sg/schools/seg/full-time-courses/common-engineering-programme.html',
+          'https://www.nyp.edu.sg/student/study/schools/engineering/common-engineering-programme',
       tileColor: Colors.orange, // Set the tile color to blue
     ),
     Course(
