@@ -50,7 +50,7 @@ class CoursesRepository extends ChangeNotifier {
       youtube:
           'https://www.nyp.edu.sg/content/dam/nyp/schools-course/seg/full-time-courses/dip-in-ai-n-data-engineering/C31_ADE_Course%20Marketing_2022.mp4',
       website:
-          'https://www.nyp.edu.sg/schools/seg/full-time-courses/ai-and-data-engineering.html',
+          'https://www.nyp.edu.sg/student/study/schools/engineering/diploma-AI-data-engineering',
       tileColor: Colors.red, // Set the tile color to blue
     ),
     Course(
@@ -62,7 +62,7 @@ class CoursesRepository extends ChangeNotifier {
           'Do you love accuracy and attention to the tiny details? Do you wonder how digitalization is enabling reinvention of manufacturing and how machine learning and artificial intelligence are making manufacturing smart? Are you also interested in creating innovative solutions – like cutting-edge medical tools or precision aircraft parts?  Then our Diploma in Advanced & Digital Manufacturing is for you. Learn about precision engineering, additive manufacturing, Industry 4.0, digital design and manufacturing, equipment design, engineering processes and process control. The training you receive in this course will help you in research and development, data analyses, prototype-making, digitalization and manufacturing. Your skills will be highly valued in important industries, including precision industries, biomedical manufacturing, aerospace manufacturing and additive manufacturing.',
       youtube: 'https://www.youtube.com/watch?v=-zJlpT9pT_I',
       website:
-          'https://www.nyp.edu.sg/schools/seg/full-time-courses/advanced-and-digital-manufacturing.html',
+          'https://www.nyp.edu.sg/student/study/schools/engineering/diploma-advanced-digital-manufacturing',
       tileColor: Colors.green,
     ),
     Course(
