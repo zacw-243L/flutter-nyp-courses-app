@@ -15,7 +15,7 @@ class FavScreen extends StatelessWidget {
       body: Consumer<CoursesRepository>(
         builder: (context, courses, child) {
           return ListView.builder(
-            itemCount: favCoursesCount.allCoursesCount,
+            itemCount: courses.favCoursesCount,
             itemBuilder: (context, index) {
               final course = courses.favCourses[index];
               return ListTile(
