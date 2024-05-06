@@ -153,13 +153,13 @@ class CoursesRepository extends ChangeNotifier {
       code: 'C87',
       title: 'Robotics & Mechatronics',
       imageUrl:
-          'https://www.nyp.edu.sg/content/dam/nyp/schools-course/seg/full-time-courses/diploma-in-robotics-mechatronics/robotics-and-mechatronics.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg',
+          'https://www.nyp.edu.sg/content/dam/nypcorp/sg/en/student/study-at-nyp/school/school-of-engineering/course-thumbnail-rm.jpg',
       description:
           'Do you love robots? Enjoy putting things together by hand? If your answer is yes, then you should take up our Diploma in Robotics & Mechatronics course, which combines mechanical, electronics and computing engineering. Learn how to build your own robots and gadgets as you pick up the basics of engineering and programming. Plus, you can choose to specialise in areas such as automation and robotics, wafer fabrication, aerospace or biomedical engineering.',
       youtube:
           'https://www.nyp.edu.sg/content/dam/nyp/schools-course/seg/full-time-courses/diploma-in-robotics-mechatronics/drm-video.mp4',
       website:
-          'https://www.nyp.edu.sg/schools/seg/full-time-courses/robotics-and-mechatronics.html',
+          'https://www.nyp.edu.sg/student/study/schools/engineering/diploma-robotics-mechatronics',
       tileColor: Colors.redAccent,
     ),
   ];
