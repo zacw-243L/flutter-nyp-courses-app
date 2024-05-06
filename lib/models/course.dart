@@ -8,6 +8,7 @@ class Course {
   final String youtube;
   final String website;
   final Color tileColor;
+  bool isFav;
 
   Course({
     required this.code,
@@ -16,6 +17,11 @@ class Course {
     required this.description,
     required this.youtube,
     required this.website,
+    this.isFav = false,
     this.tileColor = Colors.white, // Set a default value
   });
+
+  void toggleFav() {
+    isFav = !isFav;
+  }
 }

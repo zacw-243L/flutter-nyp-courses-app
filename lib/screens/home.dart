@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import '../models/courses_repository.dart';
+import 'package:provider/provider.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -11,18 +12,22 @@ class HomeScreen extends StatelessWidget {
         title: const Text('NYP Courses'),
         backgroundColor: Colors.blue,
       ),
-      body: ListView.builder(
-        itemCount: CoursesRepository().allCoursesCount,
-        itemBuilder: (context, index) {
-          final course = CoursesRepository().allCourses[index];
-          return ListTile(
-            onTap: () {
-              Navigator.pushNamed(context, '/detail', arguments: course);
+      body: Consumer<CoursesRepository>(
+        builder: (context, courses, child) {
+          return ListView.builder(
+            itemCount: courses.allCoursesCount,
+            itemBuilder: (context, index) {
+              final course = courses.allCourses[index];
+              return ListTile(
+                onTap: () {
+                  Navigator.pushNamed(context, '/detail', arguments: course);
+                },
+                leading: Image.network(course.imageUrl),
+                title: Text(course.title),
+                subtitle: Text(course.code),
+                tileColor: course.tileColor,
+              );
             },
-            leading: Image.network(course.imageUrl),
-            title: Text(course.title),
-            subtitle: Text(course.code),
-            tileColor: course.tileColor,
           );
         },
       ),
