@@ -129,24 +129,24 @@ class CoursesRepository extends ChangeNotifier {
       code: 'C75',
       title: 'Infocomm & Media Engineering',
       imageUrl:
-          'https://www.nyp.edu.sg/content/dam/nyp/schools-course/seg/full-time-courses/diploma-in-multimedia-and-infocomm-technology/hero-banner/infocomm-and-media-engineering.JPG/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg',
+          'https://www.nyp.edu.sg/content/dam/nypcorp/sg/en/student/study-at-nyp/school/school-of-engineering/course-thumbnail-ime.jpg',
       description:
           'Do you want to be part of Singapore’s smart nation drive? From new-generation web applications to digital infotainment, infocomm and media (ICM) is quickly transforming the nation. Our Diploma in Infocomm & Media Engineering will gear you up to be a leader in this exciting world. Whether it’s developing innovative software applications, creating creative & UX-centric media designs or deploying/securing critical apps on cloud infrastructures, there are plenty of opportunities for you to contribute in this area.',
       youtube: 'https://www.youtube.com/watch?v=GBh_ifyoZOw',
       website:
-          'https://www.nyp.edu.sg/schools/seg/full-time-courses/infocomm-and-media-engineering.html',
+          'https://www.nyp.edu.sg/student/study/schools/engineering/diploma-infocomm-media-engineering',
       tileColor: Colors.lightBlue,
     ),
     Course(
       code: 'C50',
       title: 'Nanotechnology & Materials Science',
       imageUrl:
-          'https://www.nyp.edu.sg/content/dam/nyp/schools-course/seg/full-time-courses/diploma-in-nanotechnology-and-materials-science/hero-banner/seg-nanotech-materials-science-1.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg',
+          'https://www.nyp.edu.sg/content/dam/nypcorp/sg/en/student/diploma-in-nanotechnology-and-materials-science/hero-banner/seg-nanotech-materials-science-1.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg',
       description:
           'Do you want to make big waves with the “science of small”? Nanotechnology is one of the most important technologies today, creating solutions that are cheaper, faster, smaller and stronger, with applications in almost every aspect of our lives. With our Diploma in Nanotechnology & Materials Science course, you can be at the forefront of this leading technology. Gain a strong foundation in producing advanced materials, such as polymers and ceramics, to create smart products for an ever-changing world. Your knowledge in both nanotechnology and materials science will open you to diverse career opportunities in high-growth industry sectors, including healthcare, electronics and renewable energy.',
       youtube: 'https://www.youtube.com/watch?v=cbYLA_lGIxI',
       website:
-          'https://www.nyp.edu.sg/schools/seg/full-time-courses/nanotechnology-and-materials-science.html',
+          'https://www.nyp.edu.sg/student/study/schools/engineering/nanotechnology-and-materials-science',
       tileColor: Colors.lime,
     ),
     Course(
