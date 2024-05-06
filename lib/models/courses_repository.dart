@@ -57,7 +57,7 @@ class CoursesRepository extends ChangeNotifier {
       code: 'C62',
       title: 'Advanced & Digital Manufacturing',
       imageUrl:
-          'https://www.nyp.edu.sg/content/dam/nyp/schools-course/seg/full-time-courses/diploma-in-digital-and-precision-engineering-with-scholarship/hero-banner/seg-advanced-digital-manufacturing-edited.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg',
+          'https://www.nyp.edu.sg/content/dam/nypcorp/sg/en/student/study-at-nyp/school/school-of-engineering/seg-course-thumbnail-adm.jpg',
       description:
           'Do you love accuracy and attention to the tiny details? Do you wonder how digitalization is enabling reinvention of manufacturing and how machine learning and artificial intelligence are making manufacturing smart? Are you also interested in creating innovative solutions – like cutting-edge medical tools or precision aircraft parts?  Then our Diploma in Advanced & Digital Manufacturing is for you. Learn about precision engineering, additive manufacturing, Industry 4.0, digital design and manufacturing, equipment design, engineering processes and process control. The training you receive in this course will help you in research and development, data analyses, prototype-making, digitalization and manufacturing. Your skills will be highly valued in important industries, including precision industries, biomedical manufacturing, aerospace manufacturing and additive manufacturing.',
       youtube: 'https://www.youtube.com/watch?v=-zJlpT9pT_I',
@@ -105,7 +105,7 @@ class CoursesRepository extends ChangeNotifier {
       code: 'C89',
       title: 'Electronic & Computer Engineering',
       imageUrl:
-          'https://www.nyp.edu.sg/content/dam/nyp/schools-course/seg/full-time-courses/diploma-in-electronic-systems/dece-hero-banner-1.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg',
+          'https://www.nyp.edu.sg/content/dam/nypcorp/sg/en/student/study-at-nyp/school/school-of-engineering/seg-course-thumbnail-ece.jpg',
       description:
           'Do you want to be in the driver’s seat as the array of advanced technologies revolutionise our world, connecting people and empowering devices? From smartphones to intelligent autonomous vehicles, electronics is increasingly everywhere, connecting us all, shaping our future and enriching our lives. NYP’s Diploma in ECE gives you wide knowledge in the theory and practice of electronics and computing. It allows you to thrive in high-growth industries and sectors such as electronics, Infocomm, semiconductor, telecommunications and Internet of Things.',
       youtube: 'https://www.youtube.com/watch?v=FPH15zE7cBg',
