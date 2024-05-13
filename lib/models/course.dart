@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class Course {
   final String code;
   final String title;
-  final String imageUrl;
+  final ImageProvider<Object> imageUrl; // Use ImageProvider instead of String
   final String description;
   final String youtube;
   final String website;

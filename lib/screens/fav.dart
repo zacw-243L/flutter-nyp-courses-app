@@ -24,7 +24,7 @@ class FavScreen extends StatelessWidget {
                 onTap: () {
                   Navigator.pushNamed(context, '/detail', arguments: course);
                 },
-                leading: Image.network(course.imageUrl),
+                leading: Image(image: course.imageUrl),
                 title: Text(course.title),
                 subtitle: Text(course.code),
                 trailing: IconButton(

@@ -36,7 +36,7 @@ class DetailScreen extends StatelessWidget {
             Padding(
               padding:
                   const EdgeInsets.all(10.0), // Add padding around the image
-              child: Image.network(course.imageUrl),
+              child: Image(image: course.imageUrl),
             ),
             const SizedBox(height: 8),
             Padding(
