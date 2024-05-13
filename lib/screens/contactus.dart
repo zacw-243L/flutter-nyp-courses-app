@@ -53,7 +53,7 @@ class ContactUsScreen extends StatelessWidget {
                     fontFamily: 'Raleway'),
               ),
               const Text(
-                '180 Ang Mo Kio Ave 8 Singapore 569830',
+                'Come join us we have a MacDonalds just next door',
                 style: TextStyle(color: Colors.red),
               ),
               const SizedBox(height: 20.0),
