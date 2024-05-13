@@ -73,7 +73,7 @@ class CoursesRepository extends ChangeNotifier {
           'Fuel your passion for aviation and push the boundaries of what is possible. Acquire both the theoretical knowledge and practical skills needed to thrive in diverse roles in aircraft design, production, inspection, and more. With this revamped diploma, join the industry in shaping a more sustainable and technologically advanced aerospace sector.',
       youtube: 'https://www.youtube.com/watch?v=ildHr3piPxE',
       website:
-          'https://www.nyp.edu.sg/student/study/schools/engineering/diploma-aerospace-engineeringl',
+          'https://www.nyp.edu.sg/student/study/schools/engineering/diploma-aerospace-engineering',
       tileColor: Colors.yellow,
     ),
     Course(
