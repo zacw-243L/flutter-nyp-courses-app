@@ -114,14 +114,14 @@ class CoursesRepository extends ChangeNotifier {
     ),
     Course(
       code: 'C41',
-      title: 'Engineering with Business',
+      title: 'Sustainability in Engineering with Business',
       imageUrl:
           'https://www.nyp.edu.sg/content/dam/nyp/schools-course/seg/full-time-courses/diploma-in-engineering-with-business/hero-banner/seg-engineering-business-1.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg',
       description:
-          'Are you an inventor at heart? Do you see yourself starting your own technology business? Our Diploma in Engineering with Business marries engineering and business concepts. You’ll learn a wide range of subjects, including engineering technology, business analytics and planning and project and operations management.',
+          'Sustainability challenges demand a multifaceted response. Build your foundation across three key domains – engineering, business operations, and advanced technologies – and learn to implement sustainable solutions across diverse sectors.',
       youtube: 'https://www.youtube.com/watch?v=ZJN3ss088wI',
       website:
-          'https://www.nyp.edu.sg/schools/seg/full-time-courses/engineering-with-business.html',
+          'https://www.nyp.edu.sg/student/study/schools/engineering/diploma-sustainability-engineering-business',
       tileColor: Colors.greenAccent,
     ),
     Course(
