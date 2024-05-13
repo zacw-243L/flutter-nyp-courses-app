@@ -65,15 +65,15 @@ class CoursesRepository extends ChangeNotifier {
       tileColor: Colors.green,
     ),
     Course(
-      code: 'C51',
-      title: 'Aeronautical & Aerospace Technology',
+      code: 'C26',
+      title: 'Aerospace Engineering',
       imageUrl:
           'https://www.nyp.edu.sg/content/dam/nyp/schools-course/seg/full-time-courses/diploma-in-aeronautical-and-aerospace-technology/hero-banner/seg-aeronautical-aerospace-tech-edited.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg',
       description:
-          'Are you fascinated by how airplanes fly? Do you wonder how a jet engine works, and can propel a plane to supersonic speed? Then our Diploma in Aeronautical & Aerospace Technology is your ticket to an exciting career in the aerospace industry. Build a strong foundation in engineering fundamentals, gain knowledge of aircraft systems and their operating principles, and pick up best practices in the maintenance, repair & overhaul (MRO) and aerospace manufacturing industries. Our course integrates theory, practical and experimental learning so that you are skilled in areas such as aerospace engineering and materials, design manufacturing and analysis, and quality system. Plus, our curriculum follows industry standards set by the Civil Aviation Authority of Singapore (CAAS), so you will be eligible to pursue an aircraft maintenance licence after graduation.',
+          'Fuel your passion for aviation and push the boundaries of what is possible. Acquire both the theoretical knowledge and practical skills needed to thrive in diverse roles in aircraft design, production, inspection, and more. With this revamped diploma, join the industry in shaping a more sustainable and technologically advanced aerospace sector.',
       youtube: 'https://www.youtube.com/watch?v=ildHr3piPxE',
       website:
-          'https://www.nyp.edu.sg/schools/seg/full-time-courses/aeronautical-and-aerospace-technology.html',
+          'https://www.nyp.edu.sg/student/study/schools/engineering/diploma-aerospace-engineeringl',
       tileColor: Colors.yellow,
     ),
     Course(
