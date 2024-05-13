@@ -38,7 +38,7 @@ class CoursesRepository extends ChangeNotifier {
       youtube: 'https://www.youtube.com/watch?v=yUq5s_mB_b0',
       website:
           'https://www.nyp.edu.sg/student/study/schools/engineering/common-engineering-programme',
-      tileColor: Colors.orange, // Set the tile color to blue
+      tileColor: Colors.white, // Set the tile color to blue
     ),
     Course(
       code: 'C31',
@@ -50,7 +50,7 @@ class CoursesRepository extends ChangeNotifier {
       youtube: 'https://www.youtube.com/watch?v=yxXRsNPN-f0',
       website:
           'https://www.nyp.edu.sg/student/study/schools/engineering/diploma-AI-data-engineering',
-      tileColor: Colors.deepOrange, // Set the tile color to blue
+      tileColor: Colors.white70, // Set the tile color to blue
     ),
     Course(
       code: 'C62',
@@ -62,7 +62,7 @@ class CoursesRepository extends ChangeNotifier {
       youtube: 'https://www.youtube.com/watch?v=-zJlpT9pT_I',
       website:
           'https://www.nyp.edu.sg/student/study/schools/engineering/diploma-advanced-digital-manufacturing',
-      tileColor: Colors.green,
+      tileColor: Colors.white,
     ),
     Course(
       code: 'C26',
@@ -73,7 +73,7 @@ class CoursesRepository extends ChangeNotifier {
       youtube: 'https://www.youtube.com/watch?v=ildHr3piPxE',
       website:
           'https://www.nyp.edu.sg/student/study/schools/engineering/diploma-aerospace-engineering',
-      tileColor: Colors.yellow,
+      tileColor: Colors.white70,
     ),
     Course(
       code: 'C52',
@@ -84,7 +84,7 @@ class CoursesRepository extends ChangeNotifier {
       youtube: 'https://www.youtube.com/watch?v=dlzxDmhkaww',
       website:
           'https://www.nyp.edu.sg/schools/seg/full-time-courses/aerospace-systems-and-management.html',
-      tileColor: Colors.pink,
+      tileColor: Colors.white,
     ),
     Course(
       code: 'C71',
@@ -96,7 +96,7 @@ class CoursesRepository extends ChangeNotifier {
       youtube: 'https://www.youtube.com/watch?v=Je2Hz08dDpc',
       website:
           'https://www.nyp.edu.sg/student/study/schools/engineering/diploma-biomedical-engineering',
-      tileColor: Colors.lightGreenAccent,
+      tileColor: Colors.white70,
     ),
     Course(
       code: 'C89',
@@ -108,7 +108,7 @@ class CoursesRepository extends ChangeNotifier {
       youtube: 'https://www.youtube.com/watch?v=FPH15zE7cBg',
       website:
           'https://www.nyp.edu.sg/student/study/schools/engineering/diploma-electronic-computer-engineering',
-      tileColor: Colors.blue,
+      tileColor: Colors.white,
     ),
     Course(
       code: 'C41',
@@ -119,7 +119,7 @@ class CoursesRepository extends ChangeNotifier {
       youtube: 'https://www.youtube.com/watch?v=ZJN3ss088wI',
       website:
           'https://www.nyp.edu.sg/student/study/schools/engineering/diploma-sustainability-engineering-business',
-      tileColor: Colors.greenAccent,
+      tileColor: Colors.white70,
     ),
     Course(
       code: 'C75',
@@ -131,7 +131,7 @@ class CoursesRepository extends ChangeNotifier {
       youtube: 'https://www.youtube.com/watch?v=GBh_ifyoZOw',
       website:
           'https://www.nyp.edu.sg/student/study/schools/engineering/diploma-infocomm-media-engineering',
-      tileColor: Colors.lightBlue,
+      tileColor: Colors.white,
     ),
     Course(
       code: 'C50',
@@ -142,7 +142,7 @@ class CoursesRepository extends ChangeNotifier {
       youtube: 'https://www.youtube.com/watch?v=cbYLA_lGIxI',
       website:
           'https://www.nyp.edu.sg/student/study/schools/engineering/nanotechnology-and-materials-science',
-      tileColor: Colors.lime,
+      tileColor: Colors.white70,
     ),
     Course(
       code: 'C87',
@@ -154,7 +154,7 @@ class CoursesRepository extends ChangeNotifier {
       youtube: 'https://www.youtube.com/watch?v=7RVzVH1tSu8',
       website:
           'https://www.nyp.edu.sg/student/study/schools/engineering/diploma-robotics-mechatronics',
-      tileColor: Colors.redAccent,
+      tileColor: Colors.white,
     ),
   ];
 }
