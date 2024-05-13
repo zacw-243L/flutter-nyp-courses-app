@@ -13,15 +13,10 @@ class MyDrawer extends StatelessWidget {
               decoration: const BoxDecoration(
                 color: Colors.blue,
               ),
-              child: Container(
-                width: double.infinity,
-                alignment: Alignment.bottomLeft,
-                child: const Text(
-                  'NYP',
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 20,
-                  ),
+              child: Center(
+                child: SizedBox(
+                  width: double.infinity,
+                  child: Image.asset('images/image.png'),
                 ),
               ),
             ),

@@ -16,28 +16,36 @@ class FavScreen extends StatelessWidget {
       ),
       body: Consumer<CoursesRepository>(
         builder: (context, courses, child) {
-          return ListView.builder(
-            itemCount: courses.favCoursesCount,
-            itemBuilder: (context, index) {
-              final course = courses.favCourses[index];
-              return ListTile(
-                onTap: () {
-                  Navigator.pushNamed(context, '/detail', arguments: course);
-                },
-                leading: Image(image: course.imageUrl),
-                title: Text(course.title),
-                subtitle: Text(course.code),
-                trailing: IconButton(
-                  icon: (course.isFav
-                      ? const Icon(Icons.favorite, color: Colors.red)
-                      : const Icon(Icons.favorite_border)),
-                  onPressed: () {
-                    courses.updateCourse(course);
+          return Container(
+            color: Colors.black87,
+            child: ListView.builder(
+              itemCount: courses.favCoursesCount,
+              itemBuilder: (context, index) {
+                final course = courses.favCourses[index];
+                return ListTile(
+                  onTap: () {
+                    Navigator.pushNamed(context, '/detail', arguments: course);
                   },
-                ),
-                tileColor: course.tileColor,
-              );
-            },
+                  leading: Image(image: course.imageUrl),
+                  title: Text(course.title,
+                      style: const TextStyle(color: Colors.white)),
+                  subtitle: Text(course.code,
+                      style: const TextStyle(color: Colors.white60)),
+                  trailing: IconButton(
+                    icon: (course.isFav
+                        ? const Icon(Icons.favorite, color: Colors.red)
+                        : const Icon(
+                            Icons.favorite_border,
+                            color: Colors.white30,
+                          )),
+                    onPressed: () {
+                      courses.updateCourse(course);
+                    },
+                  ),
+                  tileColor: course.tileColor,
+                );
+              },
+            ),
           );
         },
       ),

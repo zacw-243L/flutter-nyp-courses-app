@@ -9,6 +9,7 @@ class DetailScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     final Course course = ModalRoute.of(context)?.settings.arguments as Course;
     return Scaffold(
+      backgroundColor: Colors.black87,
       appBar: AppBar(
         title: Text(
           course.title,
@@ -24,12 +25,12 @@ class DetailScreen extends StatelessWidget {
               padding: const EdgeInsets.all(16.0),
               child: Text(
                 course.code,
-                style: const TextStyle(fontSize: 26),
+                style: const TextStyle(fontSize: 26, color: Colors.white),
               ),
             ),
             Text(
               course.title,
-              style: const TextStyle(fontSize: 22),
+              style: const TextStyle(fontSize: 22, color: Colors.white),
               textAlign: TextAlign.center, // Add this line
             ),
             const SizedBox(height: 8),
@@ -44,7 +45,8 @@ class DetailScreen extends StatelessWidget {
               child: Text(
                 course.description,
                 textAlign: TextAlign.justify,
-                style: const TextStyle(fontSize: 14), // Add this line
+                style: const TextStyle(
+                    fontSize: 14, color: Colors.white), // Add this line
               ),
             ),
             const SizedBox(height: 16),
@@ -53,7 +55,7 @@ class DetailScreen extends StatelessWidget {
               children: [
                 ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.blue,
+                    backgroundColor: Colors.red,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(
                           10.0), // Change the border radius here

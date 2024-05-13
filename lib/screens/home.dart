@@ -9,6 +9,7 @@ class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black87,
       drawer: const MyDrawer(),
       appBar: AppBar(
         title: const Text('NYP Courses'),
@@ -38,7 +39,7 @@ class HomeScreen extends StatelessWidget {
                   title: Text(course.title,
                       style: const TextStyle(color: Colors.white)),
                   subtitle: Text(course.code,
-                      style: const TextStyle(color: Colors.white)),
+                      style: const TextStyle(color: Colors.white60)),
                   trailing: IconButton(
                     icon: (course.isFav
                         ? const Icon(Icons.favorite, color: Colors.red)
