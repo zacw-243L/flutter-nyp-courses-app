@@ -3,11 +3,12 @@ import '../models/courses_repository.dart';
 import 'package:provider/provider.dart';
 
 class FavScreen extends StatelessWidget {
-  const FavScreen ({super.key});
+  const FavScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: const MyDrawer(),
       appBar: AppBar(
         title: const Text('Favourite Courses'),
         backgroundColor: Colors.blue,
@@ -42,4 +43,3 @@ class FavScreen extends StatelessWidget {
     );
   }
 }
-

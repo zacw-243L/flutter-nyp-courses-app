@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 class MyDrawer extends StatelessWidget {
-  const MyDrawer({super.key});
+  const MyDrawer({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Drawer(
@@ -28,6 +29,18 @@ class MyDrawer extends StatelessWidget {
               title: const Text('Home'),
               onTap: () {
                 Navigator.pushReplacementNamed(context, '/');
+              },
+            ),
+            ListTile(
+              title: const Text('Favourite'),
+              onTap: () {
+                Navigator.pushReplacementNamed(context, '/fav');
+              },
+            ),
+            ListTile(
+              title: const Text('Contact Us'),
+              onTap: () {
+                Navigator.pushReplacementNamed(context, '/contactus');
               },
             ),
           ],
