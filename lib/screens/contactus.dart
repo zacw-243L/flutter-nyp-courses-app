@@ -50,12 +50,13 @@ class ContactUsScreen extends StatelessWidget {
             ),
           ),
           const SizedBox(height: 2.5),
-          const Padding(
-            padding: EdgeInsets.fromLTRB(5.0, 0, 5.0, 0),
+          Padding(
+            padding: const EdgeInsets.fromLTRB(5.0, 0, 5.0, 0),
             child: Card(
               child: ListTile(
-                leading: Icon(Icons.email, color: Colors.blue),
-                title: Text('askNYP@nyp.edu.sg'),
+                leading: const Icon(Icons.email, color: Colors.blue),
+                title: const Text('askNYP@nyp.edu.sg'),
+                onTap: () => launchURL('mailto:askNYP@nyp.edu.sg'),
               ),
             ),
           ),
